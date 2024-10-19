@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Web Form</title>
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&family=Playpen+Sans:wght@100..800&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<style type="text/css">
+		body {
+			background-color: lightblue; background-size: cover;
+	
+		}
+
+
+		h1 {
+			color: red;
+			font-family: "Playpen Sans", cursive;;
+			text-align: center;
+			background-color: lightyellow;
+			padding: 15px;
+			border-radius: 15px;
+	
+
+		}
+
+		legend {
+			text-align: center;
+			width: auto;
+			display: inline-block;
+			margin: auto;
+		}
+
+		fieldset {
+			background-color: rgba(240,251,32,0.6);
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		label {
+			display: block;
+			width: 100%;
+			text-align: center;
+			margin: 10px auto;
+		}
+
+		img {
+			border-radius: 64%;
+			display: block ;
+			margin: auto;
+			width: 10%;
+        	border: 4px solid black;
+       	    border-radius: 100px;
+
+
+		}
+
+		input {
+			border-radius: 8px;
+			width: 50%;
+			height: 29px;
+			background-color: lightblue;
+			border: solid grey;
+			margin: 0 auto;
+			display: block;
+		}
+
+		input[type="submit"] {
+			background-color: lightgray; 
+			border-radius: 8px;
+			text-align: center;
+			margin-top: 10px;
+		}
+
+		.footer {
+			text-align: center;
+		}
+
+		</style>
+	</head>
+	<body>
+	
+		<div class="header">
+		<h1>Welcome to my Website</h1>
+		</div>
+		<form name="signup_form" autocomplete="">
+		<div class="form">
+		<fieldset>
+			<div class="login">
+			<img src="yuh.jpg">
+			<b><legend>LOGIN</legend></b>
+			<br/>
+			<!-- Username -->
+				<label form="Uname"><b>Username:</b></label>
+					<input id="Uname" type="Text" name="Username">
+			<br/>
+			<!-- Password -->
+				<label form="Password"><b>Password:</b></label>
+					<input type="Password" name="Password">
+			</div>
+
+			<br/>
+		<mark><input type="Submit" name="Submit1"></mark>
+		</fieldset>
+		</div>
+		<br/>
+		
+		<div class="footer">
+		<h1><small>Enzo Villegas</small> <small>9-RUBY</small></h1>
+	</div>
+		
+
+		<!-- submit -->
+		
+
+	</form>
+	</body>
+	</html>
